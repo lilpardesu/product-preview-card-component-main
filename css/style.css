@@ -78,4 +78,12 @@ body {
     margin: 1rem;
   }
 
+/* utilities */
+
+.flex-box {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
   
