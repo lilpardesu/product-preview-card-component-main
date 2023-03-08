@@ -64,6 +64,9 @@
   #root, #__next {
     isolation: isolate;
   }
+
+/* general styling */
+
 body {
     font-family: var(--ff-regular);
     font-size: 0.875rem;
@@ -71,7 +74,7 @@ body {
     color: var(--clr-neutral-dark-grayish-blue);
     background-color: var(--clr-primary-cream);
     display: grid;
-    justify-content: center;
+    place-content: center;
     margin: 1rem;
   }
 
