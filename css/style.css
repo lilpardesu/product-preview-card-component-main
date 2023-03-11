@@ -102,15 +102,18 @@ body {
   background-color: var(--clr-nuetral-white);
   border-radius: 0.5rem;
   display: grid;
+
+  max-width: 600px;
 }
 
-.product img {
+.product__image {
   overflow: hidden;
 }
 
 @media (min-width: 600px) {
   .product {
     grid-template-columns: 1fr 1fr;
+    --content-padding: 2rem;
   }
 }
 
