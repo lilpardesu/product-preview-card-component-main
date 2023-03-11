@@ -1,5 +1,7 @@
 :root {
     --clr-primary-dark-cyan: hsl(158, 36%, 37%);
+    --clr-primary-darker-cyan: hsl(158, 36%, 20%);
+
     --clr-secondery-cream: hsl(30, 38%, 92%);
 
     --clr-neutral-very-dark-blue: hsl(212, 21%, 14%);
@@ -129,4 +131,26 @@ body {
 
 .product__original-price {
   text-decoration: line-through;
+}
+
+/* button styles */
+
+.button {
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  border: 0;
+  padding: 0.75rem 1rem;
+  color: var(--clr-nuetral-white);
+  background-color: var(--clr-primary-dark-cyan);
+  font-weight: var(--fw-bold);
+  font-size: 0.925rem;
+  border-radius: 0.5rem;
+}
+
+.button:hover{
+  background-color: var(--clr-primary-darker-cyan);
 }
