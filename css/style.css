@@ -78,7 +78,7 @@ body {
     font-size: 0.875rem;
     font-weight: var(--fw-regular);
     color: var(--clr-neutral-dark-grayish-blue);
-    background-color: var(--clr-primary-cream);
+    background-color: var(--clr-secondery-cream);
     display: grid;
     place-content: center;
     margin: 1rem;
@@ -101,7 +101,17 @@ body {
 
   background-color: var(--clr-nuetral-white);
   border-radius: 0.5rem;
-  
+  display: grid;
+}
+
+.product img {
+  overflow: hidden;
+}
+
+@media (min-width: 600px) {
+  .product {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .product__content {
