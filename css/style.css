@@ -84,10 +84,11 @@ body {
 
 /* utilities */
 
-.flex-box {
+.flex-group {
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 /* product style */
@@ -118,4 +119,14 @@ body {
   font-size: 2rem;
   color: var(--clr-neutral-very-dark-blue);
   font-family: var(--ff-accent);
+}
+
+.product__price {
+  font-size: 2rem;
+  color: var(--clr-primary-dark-cyan);
+  font-family: var(--ff-accent);
+}
+
+.product__original-price {
+  text-decoration: line-through;
 }
