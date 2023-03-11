@@ -140,7 +140,7 @@ body {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.75rem;
 
   border: 0;
   padding: 0.75rem 1rem;
@@ -153,4 +153,11 @@ body {
 
 .button:hover{
   background-color: var(--clr-primary-darker-cyan);
+}
+
+.button[data-icon="shopping-cart"]::before {
+  background-image: url(/images/icon-cart.svg);
+  content: "";
+  width: 15px;
+  height: 16px;
 }
