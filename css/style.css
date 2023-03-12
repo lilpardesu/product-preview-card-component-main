@@ -169,7 +169,7 @@ body {
 }
 
 .button[data-icon="shopping-cart"]::before {
-  background-image: url(images/icon-cart.svg);
+  background-image: url(../images/icon-cart.svg);
   content: "";
   width: 15px;
   height: 16px;
